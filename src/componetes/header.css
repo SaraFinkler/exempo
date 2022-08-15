@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  background-color: #ffffff;
+}
+
+.containerHeader {
+  width: 100%;
+  max-width: 935px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fotoHeader {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.usuarioHeader {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.usuarioHeader:hover {
+  cursor: pointer;
+}

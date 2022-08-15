@@ -1,0 +1,26 @@
+.listaAmizade {
+  position: absolute;
+  right: 0;
+  top: 30vh;
+}
+
+.tituloAmizade {
+  font-size: 24px;
+  font-weight: 700px;
+  margin-top: 40px;
+}
+
+.listaAmigos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 410px;
+  overflow: auto;
+}
+
+.amigos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

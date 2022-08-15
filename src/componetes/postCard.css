@@ -1,0 +1,125 @@
+.postCard {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  border-radius: 8px;
+  border: 1px solid black;
+  height: fit-content;
+  background-color: #ffffff;
+}
+
+.postHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  width: 100%;
+}
+
+.perfilWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.imagemPerfil {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pontinhos {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.imagemPost {
+  height: 100%;
+  max-height: 586px;
+  width: 100%;
+}
+
+.postInteracao {
+  height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.botaoCurtir {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 7px;
+}
+
+.botaoCurtir:hover {
+  cursor: pointer;
+}
+
+.curtir {
+  height: 30px;
+  width: 30px;
+}
+
+.postDescricao {
+  height: 120px;
+  margin: 7px;
+  overflow: overlay;
+}
+
+.postComentario {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+textarea {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.botaoEnviar {
+  background-color: transparent;
+  border-radius: 50%;
+  border: transparent;
+}
+
+.enviar {
+  height: 30px;
+  width: 30px;
+}
+
+.mensagensContainer {
+  height: 100%;
+  max-height: 300px;
+  overflow: overlay;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 7px;
+}
+
+.mensagens {
+  width: 95%;
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.mensagem {
+  height: 100%;
+  max-height: 100px;
+  overflow: auto;
+}
